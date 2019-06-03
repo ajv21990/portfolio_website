@@ -1,24 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import LandingHeader from './components/LandingHeader'
+import AboutMe from './components/AboutMe'
+import Portfolio from './components/Portfolio'
+import Contact from './components/Contact'
+import { Spring, config } from 'react-spring/renderprops'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Spring
+        config={{ tension: 120, friction: 25 }}
+        from={{ opacity: 0 }}
+        to={{ opacity: 1 }}>
+        {props => <div style={props}> <LandingHeader /></div>}
+      </Spring>
+      <Spring
+        config={{ tension: 200, friction: 220, delay: 350 }}
+        from={{ opacity: 0 }}
+        to={{ opacity: 1 }}>
+        {props => <div style={props}><AboutMe /> <Portfolio /><Contact /></div>}
+      </Spring>
+
+
     </div>
   );
 }

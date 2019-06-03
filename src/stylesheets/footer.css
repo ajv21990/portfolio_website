@@ -1,0 +1,14 @@
+.footer{
+    background-color:#01B3BA;
+    color: black;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.footerHead{
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+}

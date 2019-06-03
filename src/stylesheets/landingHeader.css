@@ -1,0 +1,81 @@
+.header{
+    /* background-color: rgb(85, 123, 235); */
+    background-color: black;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+.title{
+    padding-top: 20px;
+}
+.headerFont{
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    color:#01B3BA
+
+
+}
+.headerFont.Aliases{
+    font-size: 25px;
+    text-align: center;
+    color: #01B3BA
+}
+
+.headerFont.Aliases.contactSub{
+    color:black;
+}
+.headerFont.Aliases.picSub{
+    color: lightgray;
+    font-size: 18px;
+}
+
+.headerFont.linkFont{
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 20px; /* Position the navbar at the top of the page */
+    z-index: 1000;
+    
+    
+}
+
+.headerFontTitle{
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.bodyFont{
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color:#01B3BA
+
+}
+.aboutMeBody{
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.headerFont.listHeaderFont{
+    font-size: 25px;
+}
+
+.listFont{
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
