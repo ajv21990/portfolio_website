@@ -82,10 +82,10 @@ export default class Portfolio extends React.Component {
                                     </Slider>
                                 </div>
                                 <br />
-                                <p className="bodyFont">Eleveight is the current professional project that I'm working on. Elevieght is a platform that connects at-risk students to case managers
-                                to help them get jobs, scholarships, and any help to better their lives. My role on this project was to create a feature that would have companies who use this platform create
-                                jobs for students and for students to find these jobs and apply to them. I worked the full stack on this project using MSSQL for the backend and ASP.NET/C# for the middle tier.
-                                For our front end we use React, HTML, CSS, Bootstrap, Typescript and Redux. For more information on the specific companents I worked on for this project, visit my git hub at the bottom of <span><a href="#Contact">this page</a></span>.</p>
+                                <p className="bodyFont">Eleveight is the current professional project that I'm working on. Eleveight is a platform that connects at-risk students to case managers to help them get jobs, scholarships, and any help to better
+                                their lives. My role on this project is to create a feature that would have companies who use this platform create jobs for students and for said students to find these jobs and apply to them. I work the full stack on this project
+                                using MSSQL for the backend and ASP.NET/C# for the middle tier. For our front end we use React, HTML, CSS, Bootstrap, Typescript and Redux. For more information on the specific components
+                                I worked on for this project, visit my git hub at the bottom of <span><a href="#Contact">this page</a></span>.</p>
                             </div>
                             : ""}
                         {this.state.showRadiant ?
@@ -104,10 +104,10 @@ export default class Portfolio extends React.Component {
                                     </Slider>
                                 </div>
                                 <br />
-                                <p className="bodyFont">RADiant is a hackathon submission I did in a group of three for the AddiHacks hackathon.
-                                Radiant was our solution to a cleaner, greener transportation environment. In implementing our service we hoped to reduce congestion as well strengthen a sense of community within Long Beach and the surrounding southern California areas.
-                                My role on this project was implemeting an interface that allowed users to see the nearest ride options near them. I implemented Google Maps in React to show users the nearest scooter, bike, or car services nearest to them.
-                                I was able to grab the data about the services from API's provided by the hackathon. I also was tasked with a login and register page.</p>
+                                <p className="bodyFont">RADiant is a hackathon submission I did in a group of three for the AddiHacks hackathon. Radiant was our solution to a cleaner, greener transportation environment. In implementing our service we hoped to
+                                reduce congestion as well strengthen a sense of community within Long Beach and the surrounding southern California areas. My role on this project was implementing an interface that allowed users to see the nearest ride options near them.
+                                I implemented Google Maps using the React framework to show users the nearest scooter, bike, or car services within their specified distance. I was able to obtain the data about the services
+                                from API's provided by the hackathon. I also was tasked with a login and registration page.</p>
                             </div>
                             : ""}
                         {this.state.showHRB ?
@@ -126,10 +126,10 @@ export default class Portfolio extends React.Component {
                                     </Slider>
                                 </div>
                                 <br />
-                                <p className="bodyFont">Homerun Bingo is a BaseballHackDay project I worked on with fellow baseball enthusiast. We placed third on this project and I won a Google Home Mini.
-                                HomeRunBingo allows anyone to play along everyday of the MLB season and fill out Bingo cards populated with the top Home Run hitters from across the league. When you have a player hit a Home Run,
-                                 his square on your board is filled. My role in this project was figuring out a way to utilize the provided API's. I ended up using these API's to grab
-                                 the previous season's homerun leaders and insert them into an array so that when you randomized your bored, it would choose random batters from the array and place them in a random spot on the bingo board. </p>
+                                <p className="bodyFont">Homerun Bingo is a BaseballHackDay project I worked on with fellow baseball enthusiasts.
+                                We placed third on this project out of ten competing teams. HomeRunBingo allows anyone to play along every day of the MLB season
+                                and fill out Bingo cards populated with the top Home Run hitters from across the league. When you have a player hit a Home Run, his square on your board is filled. My role in this project was figuring out a way to utilize the provided API's. I ended up using these API's to secure the previous season's homerun leaders and insert them into an array so that randomizing a user’s board would
+                                choose batters from the array and place them in an arbitrary spot on the bingo board. </p>
                             </div>
                             : ""}
 
