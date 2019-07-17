@@ -14,7 +14,9 @@
 }
 
 .socialLinks{
-    padding-left: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .phoneEmail{
     padding-left: 55px;

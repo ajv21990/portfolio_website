@@ -3,7 +3,7 @@ import LandingHeader from './components/LandingHeader'
 import AboutMe from './components/AboutMe'
 import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
-import { Spring, config } from 'react-spring/renderprops'
+import { Spring } from 'react-spring/renderprops'
 
 
 function App() {
